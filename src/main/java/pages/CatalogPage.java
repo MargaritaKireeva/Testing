@@ -13,7 +13,6 @@ import static com.codeborne.selenide.Selenide.$x;
 
 public class CatalogPage {
     private SelenideElement AllFilters = $x(".//a[contains(text(), 'Все фильтры')]");
-   // private SelenideElement AllFiltersHeaderModalWindow = $x(".//div[contains(text(), 'Все фильтры')]");
     private SelenideElement Price = $x(".//div[@class='filters-extended__filters']/.//span[contains(text(),'Цена')]");
     private SelenideElement SmallestPrice = $x(".//div[@class='filters-extended__filters']/.//input[@placeholder='от 85']");
     private SelenideElement HighestPrice = $x(".//div[@class='filters-extended__filters']/.//input[@placeholder='до 4550']");

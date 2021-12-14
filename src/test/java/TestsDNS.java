@@ -1,19 +1,12 @@
-import com.codeborne.selenide.Condition;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static com.codeborne.selenide.Selectors.*;
 import pages.MainPage;
 import pages.SignInPage;
 import pages.CatalogPage;
-import pages.SpecialsPage;
 
-import static com.codeborne.selenide.Selenide.*;
-import static org.testng.Assert.*;
-
-public class Tests {
+public class TestsDNS {
     private MainPage mainPage;
     private SignInPage signInPage;
     private CatalogPage catalogPage;

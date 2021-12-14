@@ -12,9 +12,6 @@ public class SignInPage {
     private SelenideElement PasswordError = $x(".//div[@class='error-message-block form-entry-with-password__error']");
     private SelenideElement QuestionMark = $x(".//span[@class='form-entry-or-registry__ask-icon']");
     private SelenideElement Tooltip = $x(".//div[@class='auth-tooltip']");
-   // private SelenideElement InputPhone = $x(".//input[@class='input-text']");
-    //private SelenideElement SignInButton = $x(".//button[contains(text(),'Войти')]");
-   // private SelenideElement PasswordError = $x(".//div[contains(text(),'Password cannot be blank')]");
 
     public void SignIn(String email) {
         SignInWithPasswordButton.click();
