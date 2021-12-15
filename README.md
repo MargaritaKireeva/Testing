@@ -1,2 +1,2 @@
 # Testing
-Тесты в test/TestsDNS, страницы сайта в main/pages
+Тесты в src/test/TestsDNS, страницы сайта в src/main/pages
