@@ -22,8 +22,8 @@ public class CatalogPage {
     public void SetFilterByPrice(String smallestPrice, String highestPrice) {
         AllFilters.shouldBe(Condition.visible).click();
         Price.shouldBe(Condition.visible).click();
-        SmallestPrice.shouldBe(Condition.visible).setValue(smallestPrice);
-        HighestPrice.shouldBe(Condition.visible).setValue(highestPrice);
+        SmallestPrice.shouldBe(Condition.visible).setValue(smallestPrice).shouldBe(Condition.exactValue(smallestPrice));
+        HighestPrice.shouldBe(Condition.visible).setValue(highestPrice).shouldBe(Condition.exactValue(highestPrice));
         SubmitButton.shouldBe(Condition.visible).click();
     }
 
